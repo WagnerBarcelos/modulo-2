@@ -1,0 +1,19 @@
+.document-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#address {
+    text-align: center;
+}
+
+#address li {
+    list-style-type: none;
+}
+
+body {
+    background-color: blueviolet;
+    color: white;
+}
