@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Meu currículo</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <!-- Cabeçalho do documento -->
+    <header class="document-header">
+        <h1 id="name">WAGNER ESTEVAM BARCELOS DA SILVA</h1>
+        <ul id="address">
+                <li>Butantã, São Paulo</li>
+                <li>wagner.silva@sou.inteli.edu.br</li>
+                <li>(27) 99957 - 1015</li>
+        </ul>
+    </header>
+
+    <!-- Objetivo -->
+    <h2 class="section-title">OBJETIVO</h2>
+    <p class="section-content">Busco colocação no mercado de trabalho na área da tecnologia da informação</p>
+
+    <!-- Habilidades e competências -->
+    <h2 class="section-title">HABILIDADES E COMPETÊNCIAS</h2>
+    <ul class="section-content">
+        <li>Boa comunicação oral e escrita
+        <li>Fácil aprendizagem 
+        <li>Trabalho em equipe
+        <li>Realização de trabalho voluntário
+    </ul>
+
+    <!-- Formação acadêmica -->
+    <h2 class="section-title">FORMAÇÃO ACADÊMICA</h2>
+    <ul class="section-content">
+        <li>Ensino Médio Completo - Escola Monteiro</li>
+        <li>Cursando 1º período de Engenharia da Computação - Instituto de Tecnologia e Liderança
+    </ul>
+
+    <!-- Certificações -->
+    <h2 class="section-title">CERTIFICAÇÕES</h2>
+    <ul class="section-content">
+        <li>Certificação de conclusão de curso de inglês - 2020 - Centro de Cultura Anglo Americana
+        <li>Certificação de Honra ao Mérito - 2021 - Concurso Canguru de Matemática Brasil 2021
+    </ul>
+
+    <!-- Certificações -->
+    <h2 class="section-title">IDIOMAS</h2>
+    <ul class="section-content">
+        <li>Inglês - Avançado</li>
+    </ul>
+
+    <button id="enviar">Enviar</button>
+
+    <script>
+        $('#enviar').on("click", botao)
+
+        function botao() {
+            alert('Dados enviados com sucesso!')
+        }
+    </script>
+
+
+</body>
+</html>
